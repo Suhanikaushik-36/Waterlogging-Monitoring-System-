@@ -1,0 +1,124 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "ward_name": "Connaught Place",
+      "ward_code": "CP",
+      "latitude": 28.6315,
+      "longitude": 77.2167,
+      "risk_level": "High",
+      "severity_score": 9,
+      "last_incident": "2023-09-15",
+      "rainfall_mm": 150,
+      "drainage_status": "Weak",
+      "preparedness_score": 3
+    },
+    {
+      "id": 2,
+      "ward_name": "Karol Bagh",
+      "ward_code": "KB",
+      "latitude": 28.6516,
+      "longitude": 77.1907,
+      "risk_level": "High",
+      "severity_score": 8,
+      "last_incident": "2023-09-10",
+      "rainfall_mm": 140,
+      "drainage_status": "Moderate",
+      "preparedness_score": 4
+    },
+    {
+      "id": 3,
+      "ward_name": "Rohini",
+      "ward_code": "RH",
+      "latitude": 28.7433,
+      "longitude": 77.0675,
+      "risk_level": "Medium",
+      "severity_score": 5,
+      "last_incident": "2023-09-05",
+      "rainfall_mm": 80,
+      "drainage_status": "Good",
+      "preparedness_score": 7
+    },
+    {
+      "id": 4,
+      "ward_name": "Dwarka",
+      "ward_code": "DW",
+      "latitude": 28.5797,
+      "longitude": 77.0598,
+      "risk_level": "Low",
+      "severity_score": 2,
+      "last_incident": "2023-08-28",
+      "rainfall_mm": 40,
+      "drainage_status": "Excellent",
+      "preparedness_score": 9
+    },
+    {
+      "id": 5,
+      "ward_name": "Laxmi Nagar",
+      "ward_code": "LN",
+      "latitude": 28.6285,
+      "longitude": 77.2759,
+      "risk_level": "High",
+      "severity_score": 7,
+      "last_incident": "2023-09-12",
+      "rainfall_mm": 120,
+      "drainage_status": "Weak",
+      "preparedness_score": 4
+    },
+    {
+      "id": 6,
+      "ward_name": "Vasant Kunj",
+      "ward_code": "VK",
+      "latitude": 28.5246,
+      "longitude": 77.1856,
+      "risk_level": "Medium",
+      "severity_score": 4,
+      "last_incident": "2023-09-03",
+      "rainfall_mm": 60,
+      "drainage_status": "Good",
+      "preparedness_score": 8
+    }
+  ],
+  "rainfall": {
+    "current": {
+      "timestamp": "2023-09-20T14:30:00",
+      "value_mm": 45,
+      "period_hours": 3
+    },
+    "forecast": {
+      "next_3h": 60,
+      "next_6h": 85,
+      "next_12h": 120
+    },
+    "high_risk_zones": [
+      "Connaught Place",
+      "Karol Bagh",
+      "Laxmi Nagar"
+    ]
+  },
+  "reports": [
+    {
+      "report_id": 1,
+      "location": "Connaught Place",
+      "severity": "High (Waist Deep+)",
+      "timestamp": "2023-09-20T10:15:00",
+      "status": "verified",
+      "received_at": "2023-09-20T10:20:00"
+    },
+    {
+      "report_id": 2,
+      "location": "Karol Bagh",
+      "severity": "Medium (Knee Deep)",
+      "timestamp": "2023-09-20T11:30:00",
+      "status": "pending",
+      "received_at": "2023-09-20T11:35:00"
+    },
+    {
+      "report_id": 3,
+      "location": "Karol Bagh",
+      "severity": "Medium (Knee Deep)",
+      "timestamp": "2026-01-03T15:26:58.752Z",
+      "status": "pending"
+    }
+  ]
+}
