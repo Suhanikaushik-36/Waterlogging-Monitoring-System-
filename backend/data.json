@@ -1,0 +1,111 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "ward_name": "Connaught Place",
+      "ward_code": "CO",
+      "latitude": 28.6315,
+      "longitude": 77.2167,
+      "risk_level": "Medium",
+      "severity_score": 6,
+      "last_incident": "2026-01-05",
+      "rainfall_mm": 14.9,
+      "drainage_status": "Weak",
+      "preparedness_score": 5,
+      "last_updated": "2026-01-10T20:14:59.420966"
+    },
+    {
+      "id": 2,
+      "ward_name": "Karol Bagh",
+      "ward_code": "KA",
+      "latitude": 28.6516,
+      "longitude": 77.1907,
+      "risk_level": "Medium",
+      "severity_score": 5,
+      "last_incident": "2025-12-31",
+      "rainfall_mm": 40.0,
+      "drainage_status": "Moderate",
+      "preparedness_score": 7,
+      "last_updated": "2026-01-10T20:14:59.420966"
+    },
+    {
+      "id": 3,
+      "ward_name": "Rohini",
+      "ward_code": "RO",
+      "latitude": 28.7433,
+      "longitude": 77.0675,
+      "risk_level": "Medium",
+      "severity_score": 7,
+      "last_incident": "2025-12-17",
+      "rainfall_mm": 65.3,
+      "drainage_status": "Good",
+      "preparedness_score": 7,
+      "last_updated": "2026-01-10T20:14:59.420966"
+    },
+    {
+      "id": 4,
+      "ward_name": "Dwarka",
+      "ward_code": "DW",
+      "latitude": 28.5797,
+      "longitude": 77.0598,
+      "risk_level": "Low",
+      "severity_score": 1,
+      "last_incident": "2026-01-06",
+      "rainfall_mm": 9.8,
+      "drainage_status": "Excellent",
+      "preparedness_score": 8,
+      "last_updated": "2026-01-10T20:14:59.420966"
+    },
+    {
+      "id": 5,
+      "ward_name": "Laxmi Nagar",
+      "ward_code": "LA",
+      "latitude": 28.6285,
+      "longitude": 77.2759,
+      "risk_level": "Medium",
+      "severity_score": 6,
+      "last_incident": "2025-12-12",
+      "rainfall_mm": 32.5,
+      "drainage_status": "Weak",
+      "preparedness_score": 7,
+      "last_updated": "2026-01-10T20:14:59.420966"
+    },
+    {
+      "id": 6,
+      "ward_name": "Vasant Kunj",
+      "ward_code": "VA",
+      "latitude": 28.5246,
+      "longitude": 77.1856,
+      "risk_level": "Low",
+      "severity_score": 3,
+      "last_incident": "2025-12-12",
+      "rainfall_mm": 39.6,
+      "drainage_status": "Good",
+      "preparedness_score": 8,
+      "last_updated": "2026-01-10T20:14:59.420966"
+    }
+  ],
+  "rainfall": {
+    "current": {
+      "timestamp": "2026-01-10T20:14:59",
+      "value_mm": 33.7,
+      "period_hours": 3
+    },
+    "forecast": {
+      "next_3h": 50.9,
+      "next_6h": 55.7,
+      "next_12h": 75.1
+    },
+    "high_risk_zones": []
+  },
+  "reports": [
+    {
+      "report_id": 1,
+      "location": "Karol Bagh",
+      "severity": "High (Waist Deep+)",
+      "timestamp": "2026-01-10T14:31:18.033Z",
+      "status": "verified",
+      "received_at": "2026-01-10T20:01:18.351878"
+    }
+  ]
+}
